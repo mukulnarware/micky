@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    /* flex-direction: row; */
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin :auto;
+    padding: 18px 0px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 4px;
+    padding: 2px 16px;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    border: solid red;
+}
+.inbox{
+    margin: 5px 9px;
+    padding: 2px 6px;
+    border: solid wheat;
+    border-radius: 12px;
+    background-color: white;
+}
+.btn{display: block;
+   
+    font: 1em sans-serif;
+    /* border: solid white; */
+    /* background-color: tomato; */
+    
+}
+
+.manu a{
+    padding: 1px 9px;
+    margin: auto 23px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+
+}
+.manu a:hover{
+    padding: 1px 9px;
+    margin: auto 23px;
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    border-radius: 10px;
+
+}
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    /* background-color: wheat; */
+    position: relative;
+    padding: 122px 35px;
+    /* border: solid red; */
+    height: 100px;
+    width: 550px;
+    justify-content: center;
+    margin: 32px 6px;
+    
+}
+.home{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.home:before
+{ 
+        content:"";
+        background: url("pics/bg.jpg") no-repeat center center/cover;
+        position: absolute;
+        opacity: 0.73;
+        height: 62%;
+        width: 100%;
+        z-index: -1;
+ 
+ 
+}
+.overview{
+    margin: 12px 1px ;
+    padding:4px 6px;
+    text-align:center;;
+    border: 2px solid burlywood;
+    background-color:aliceblue;
+}
+
+.sectionArea{
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+border: solid  red ;
+grid-gap: 1rem ;
+padding: 1rem;
+
+
+}
+
+.sectionContent{
+    border: solid yellowgreen;
+    height:100%;
+    widows: 100%;
+    padding: 6px 20px;
+    
+    justify-content: center;
+  
+  }
+.myFont{
+    font-family: 'Lexend Giga', sans-serif;
+    text-shadow: 1px 1px tomato;
+}
+.allText{font-family: 'Lexend Giga', sans-serif;
+text-align: center;
+font-size: 1rem;
+}
+.textStyle{font-family: 'Lexend Giga', sans-serif;
+   
+    font-size: 1rem;
+    }
+
+/* imgages */
+
+.sectionContent image{
+display: flex;
+flex-direction: column;
+
+    /* height: 500px;
+    width: 500px; */
+} 
+.image img{
+    height: 400px;
+    width: 400px;
+
+
+}
+.hot img{display: flex;
+    flex-direction: column;
+    padding: 1px;
+    height: 400px;
+    width: 400px;
+}
