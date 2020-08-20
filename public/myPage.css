@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px;
 }
 
 /* navbar */
@@ -18,12 +18,19 @@
     flex-direction: column;
     margin: 2px 4px;
     padding: 2px 16px;
-    width: 500px;
+    width: 380px;
     height: 400px;
     justify-content: center;
-    border: solid red;
+    /* border: solid red; */
 }
 .inbox{
+    
+    margin: 5px 9px;
+    padding: 2px 6px;
+
+}
+input{
+     text-align: center;
     margin: 5px 9px;
     padding: 2px 6px;
     border: solid wheat;
@@ -31,9 +38,10 @@
     background-color: white;
 }
 .btn{display: block;
-   
+
     font: 1em sans-serif;
-    /* border: solid white; */
+
+    border: solid bl;
     /* background-color: tomato; */
     
 }
@@ -78,18 +86,18 @@
 .home:before
 { 
         content:"";
-        background: url("pics/bg.jpg") no-repeat center center/cover;
+        background: url("../pics/bg.jpg") no-repeat center center/cover;
         position: absolute;
         opacity: 0.73;
-        height: 62%;
+        height: 100%;
         width: 100%;
         z-index: -1;
  
  
 }
 .overview{
-    margin: 12px 1px ;
-    padding:4px 6px;
+    margin: 19px 1px ;
+    padding:9px 6px;
     text-align:center;;
     border: 2px solid burlywood;
     background-color:aliceblue;
