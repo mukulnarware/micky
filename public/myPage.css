@@ -86,7 +86,7 @@ input{
 .home:before
 { 
         content:"";
-        background: url("../pics/bg.jpg") no-repeat center center/cover;
+        background: url("./pics/bg.jpg") no-repeat center center/cover;
         position: absolute;
         opacity: 0.73;
         height: 100%;
